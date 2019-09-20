@@ -54,13 +54,12 @@ a {
 .main-logo p {
     text-align: center;
     display: block;
-    font-size: 60px;
+    font-size: 50px;
     margin: auto;
     color: #fff;
 }
 
 .main-nav {
-    height: 80%;
     float: right;
     margin-top: 188.5px;
     margin-bottom: 0;
