@@ -42,6 +42,8 @@ a {
 
     /* 背景画像が読み込まれる前に表示される背景のカラー */
     background-color: #464646;
+
+    position: relative;
 }
 
 .main-logo {
@@ -54,16 +56,16 @@ a {
 .main-logo p {
     text-align: center;
     display: block;
-    font-size: 50px;
+    font-size: 55px;
     margin: auto;
     color: #fff;
 }
 
 .main-nav {
-    float: right;
-    margin-top: 188.5px;
-    margin-bottom: 0;
-    margin-right: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
 }
 
 .main-nav ul{
