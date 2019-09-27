@@ -1,1 +1,59 @@
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+
+li {
+  list-style: none;
+}
+
+.container {
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+  font-family: "Homemade Apple", cursive;
+  background-color: #464646;
+  position: relative;
+}
+
+.main-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.main-nav ul {
+  height: 100%;
+}
+
+.main-nav li {
+  margin-bottom: 50px;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(116,156,158,0.6);
+  padding: 0 12px;
+  border: 2px solid #fff;
+  border-right: none;
+  border-radius: 30px 0 0 30px;
+}
+
+.main-nav li:hover {
+  background-color: rgba(116,156,158,1);
+}
+
+.main-nav .here {
+  background-color: red;
+}

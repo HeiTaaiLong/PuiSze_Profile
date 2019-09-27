@@ -21,10 +21,15 @@ a {
     text-decoration: none;
 }
 
+.container {
+    height: 100%;
+}
+
 
 .main {
     height: 100%;
     font-family: "Homemade Apple", cursive;
+
     /* 画像ファイルの指定 */
     background-image: url(bg.jpg);
 
@@ -86,4 +91,8 @@ a {
 
 .main-nav li:hover{
     background-color: rgba(116,156,158,1);
+}
+
+.main-nav li .here {
+  color: red;
 }
