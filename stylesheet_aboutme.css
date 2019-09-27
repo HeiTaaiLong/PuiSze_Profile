@@ -57,3 +57,7 @@ li {
 .main-nav .here {
   background-color: red;
 }
+
+.main-nav .here:hover {
+  background-color: red;
+}
